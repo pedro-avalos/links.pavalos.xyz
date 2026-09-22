@@ -1,0 +1,66 @@
+.button,
+button {
+  transition:
+    filter 0.2s ease,
+    transform 0.2s ease;
+}
+
+.button:hover,
+button:hover {
+  filter: brightness(90%);
+  transform: translateY(-1px);
+}
+
+.icon {
+  filter: var(--icon-filter, none);
+}
+
+.button.button-default {
+  --button-text: #ffffff;
+  --button-background: #2457f5;
+  --button-border: 1px solid #ffffff;
+}
+
+.button-bluesky {
+  --button-text: #ffffff;
+  --button-background: #1185fe;
+}
+
+.button-discord {
+  --button-text: #ffffff;
+  --button-background: #5865f2;
+}
+
+.button-github {
+  --button-text: #ffffff;
+  --button-background: #000000;
+  --button-border: 1px solid #ffffff;
+}
+
+.button-linked {
+  --button-text: #ffffff;
+  --button-background: #2867b2;
+}
+
+.button-steam {
+  --button-text: #ffffff;
+  background-image: linear-gradient(90deg, #08bbff, #2b75ff);
+}
+
+.button-librarything {
+  --button-text: #ffffff;
+  --button-background: #251a15;
+  --button-border: 1px solid #ffffff;
+}
+
+.button-goodreads {
+  --button-text: #333333;
+  --button-background: #f3f1e6;
+  --button-border: 1px solid #212121;
+}
+
+.button-storygraph {
+  --button-text: #000000;
+  --button-background: #ffffff;
+  --button-border: 1px solid #000000;
+}
