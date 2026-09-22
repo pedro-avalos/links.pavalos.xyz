@@ -1,0 +1,7 @@
+name = "links-pavalos-xyz"
+pages_build_output_dir = "."
+
+[assets]
+directory = "."
+
+[previews]
