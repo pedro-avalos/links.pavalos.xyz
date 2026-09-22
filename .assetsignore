@@ -1,0 +1,10 @@
+**/.DS_Store
+.git
+.github
+.gitignore
+.idea
+.pre-commit-config.yaml
+.vscode
+LICENSE.md
+README.md
+node_modules
