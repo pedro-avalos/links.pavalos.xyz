@@ -4,10 +4,10 @@ permissions: {}
 
 on:
   pull_request:
-    paths: [.github/**]
+    paths: [.github/**, .pre-commit-config.yaml]
   push:
     branches: [main]
-    paths: [.github/**]
+    paths: [.github/**, .pre-commit-config.yaml]
   workflow_dispatch:
 
 jobs:
