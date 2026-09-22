@@ -5,8 +5,10 @@
 .idea
 .pre-commit-config.yaml
 .vscode
+.workshop.lock
 .wrangler
 LICENSE.md
 README.md
 node_modules
+workshop.yaml
 wrangler.toml

@@ -1,0 +1,21 @@
+name: links-pavalos-xyz
+base: ubuntu@26.04
+sdks:
+  - name: node
+    slots:
+      wrangler:
+        interface: tunnel
+        endpoint: localhost:8976
+      pages-dev:
+        interface: tunnel
+        endpoint: localhost:8788
+  - name: system
+    plugs:
+      wrangler:
+        interface: tunnel
+        endpoint: localhost:8976
+      pages-dev:
+        interface: tunnel
+        endpoint: localhost:8788
+actions:
+  wrangler: npx wrangler "$@"
