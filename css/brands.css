@@ -53,6 +53,12 @@ button:hover {
   --button-border: 1px solid #ffffff;
 }
 
+.button-hevy {
+  --button-text: #ffffff;
+  --button-background: #000000;
+  --button-border: 1px solid #ffffff;
+}
+
 .button-goodreads {
   --button-text: #333333;
   --button-background: #f3f1e6;
