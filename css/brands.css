@@ -37,6 +37,12 @@ button:hover {
   --button-border: 1px solid #ffffff;
 }
 
+.button-tangled {
+  --button-text: #ffffff;
+  --button-background: #000000;
+  --button-border: 1px solid #ffffff;
+}
+
 .button-linked {
   --button-text: #ffffff;
   --button-background: #2867b2;
