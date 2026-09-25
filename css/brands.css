@@ -48,6 +48,12 @@ button:hover {
   --button-background: #2867b2;
 }
 
+.button-sifa {
+  --button-text: #ffffff;
+  --button-background: #232220;
+  --button-border: 1px solid #ffffff;
+}
+
 .button-steam {
   --button-text: #ffffff;
   background-image: linear-gradient(90deg, #08bbff, #2b75ff);
